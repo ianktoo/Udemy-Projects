@@ -10,4 +10,11 @@
 ## University Units
 
 A fun way to calculate how many units you have to complete your course.
+
 `UniversityUnits.py` : [UniversityUnits](./UniversityUnits.py)
+
+## AnyArgs
+
+Demonstrates what happens when a function accepts any number of positional arguments.
+
+`AnyArgs.py` : [AnyArgs](./AnyArgs.py)
