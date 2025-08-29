@@ -18,3 +18,10 @@ A fun way to calculate how many units you have to complete your course.
 Demonstrates what happens when a function accepts any number of positional arguments.
 
 `AnyArgs.py` : [AnyArgs](./AnyArgs.py)
+
+
+## BMI Twist
+
+Adding a little twist to BMI calculation
+
+`BMICalculator.py` : [BMICalculator](./BMICalculator.py)
