@@ -53,3 +53,26 @@ print(receptor(1,
                "Nathan", 2,34,
                [23,"ian","34"]
                ))
+
+
+def friendly_function(**kwargs):
+    """
+    The friendly function accepts any type of arguments and provides a summary.
+
+    :param kwargs:
+    :return: A summary of the datatypes.
+    """
+
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+    print(f'Arguments supplied: {len(kwargs)}')
+
+
+friendly_function(
+    name="Ian",
+    details={
+    "gender": "male",
+    "yob": 1990,},
+    active=True,
+)
