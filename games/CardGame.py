@@ -10,11 +10,15 @@ class CardGame:
         ranks: The rank of the card.
         deck: The deck of the card.
 
-    Methods:
+    Functions:
         print_deck(): Prints the card deck.
         _create_deck(): Creates a new deck. (private)
         pick_card(): Picks a card from the deck. (public)
 
+    Examples:
+        >>> card = CardGame()
+        >>> chosen_card = card.pick_card()
+        >>> card_deck = card.print_deck()
     """
 
     def __init__(self):
