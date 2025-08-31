@@ -46,7 +46,7 @@ class SimpleLogger(object):
             raise Exception("Invalid log level: %s" % level)
 
         if self._should_log(level):
-            with open(self.log_file, "a") as log:
+            with open(self.log_file, "a", encoding="utf-8") as log:
                 log.write(self._format_message(level, message))
 
     def debug(self, message):
